@@ -403,13 +403,14 @@ body {
   flex-direction: column;
   justify-content:center;
   align-items: start;
+  gap: 4px;
 
 }
 
 .emailInput input {
   width: 328px;
-  height: 40px;
-  border-radius: 10px;
+  height: 36px;
+  border-radius: 10px 0 0 10px;
   border: 1px solid #EE685F;
 
 }
@@ -422,8 +423,33 @@ body {
 }
 
 button {
-  border: 2px solid red;
+  border: 1px solid #EE685F ;
+  border-radius: 0 10px 10px 0;
   background-color: #EE685F;
   height: 40px;
   width: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lineAcross {
+  margin: 50px auto 30px auto;
+  height: 1px;
+  width: 370px;
+  border: 1px;
+  background-color:#999999 ;
+  
+}
+.footerLogos {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.lastContent a {
+color: #2A90D9;
+text-decoration: none;
 }
