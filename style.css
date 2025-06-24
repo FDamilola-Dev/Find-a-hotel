@@ -7,11 +7,16 @@ body {
   font-family: "Urbanist", sans-serif;
 }
 
+.mainContainer {
+  padding: 16px;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -36,13 +41,13 @@ body {
   margin-left: 10px;
 }
 
-.heroSection h1 {
+/* .heroSection h1 {
   width: 328px;
-}
+} */
 
-.heroSection p {
+/* .heroSection p {
   width: 336px;
-}
+} */
 
 .searchDestination {
   height: 60px;
@@ -57,7 +62,7 @@ body {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  width: 95%;
+  width: 90%;
   margin: 10px;
   padding: 0px 10px;
 }
@@ -95,6 +100,7 @@ body {
 }
 
 .whyChooseUs {
+  width: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -251,15 +257,24 @@ body {
   color: #2a90d9;
 }
 
-.review {
+.review-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 309px;
-  height: 497px;
+  /* width: 309px; */
+  /* height: 497px; */
   /* border: 2px solid pink; */
   margin: 0 auto;
+}
+
+.reviewImgs {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  max-width: 312px;
+  height: 300px;
+  overflow: hidden;
 }
 
 .review h2 {
@@ -274,20 +289,36 @@ body {
   /* border: 2px solid darkgoldenrod; */
 }
 
-.review span {
-  font-weight: 600;
+
+
+.reviewImg1 {
+  margin-bottom: 20px;
+  display: block;
 }
 
-.reviewImg {
-  margin-bottom: 20px;
+.reviewImg2{
+  display: none;
+    animation: fade 0.5s ease-in-out;
+    width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
 }
 .more {
+  margin-top: 10px;
   background-color: #ee685f;
   color: white;
   width: 300px;
   height: 50px;
   text-align: center;
+  align-items: start;
   border-radius: 10px;
+  border: none;
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .recentPostSection {
@@ -322,7 +353,7 @@ body {
   margin-left: auto;
 }
 
-.minuteImgWrapper{
+.minuteImgWrapper {
   position: relative;
   width: 17px;
   height: 17px;
@@ -342,7 +373,7 @@ body {
   height: 7.26px;
   z-index: 2;
   top: 3.5px;
-  right:6px;
+  right: 6px;
 }
 
 .minutesWrapper p {
@@ -364,25 +395,25 @@ body {
 }
 
 .footer {
-  margin:  0 auto;
+  margin: 0 auto;
+  padding: 16px;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:start;
+  justify-content: center;
+  align-items: start;
   width: 360px;
   /* margin:16px auto ; */
   text-align: left;
+  background-color: #f3f2f0;
   /* border: 2px  solid black; */
-
 }
 
-.footerText{
-  margin:0 auto
-  ;
+.footerText {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  margin:16px auto ;
+  justify-content: center;
+  margin: 16px auto;
   width: 121px;
   /* text-align: left; */
 }
@@ -398,34 +429,35 @@ body {
 .subscribeSection {
   width: 360px;
 }
-.emailInput{
+.emailInput {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: start;
   gap: 4px;
-
+  width: 100%;
 }
 
 .emailInput input {
-  width: 328px;
   height: 36px;
   border-radius: 10px 0 0 10px;
-  border: 1px solid #EE685F;
-
+  border: 1px solid #ee685f;
+  width: 100%;
 }
-.inputButton{
+
+.inputButton {
   display: flex;
   flex-direction: row;
-  justify-content: space-aroun;
+  justify-content: space-around;
   align-items: center;
+  width: 100%;
   /* border: 2px solid gold; */
 }
 
-button {
-  border: 1px solid #EE685F ;
+.inputButton button {
+  border: 1px solid #ee685f;
   border-radius: 0 10px 10px 0;
-  background-color: #EE685F;
+  background-color: #ee685f;
   height: 40px;
   width: 40px;
   display: flex;
@@ -437,10 +469,9 @@ button {
 .lineAcross {
   margin: 50px auto 30px auto;
   height: 1px;
-  width: 370px;
+  max-width: 370px;
   border: 1px;
-  background-color:#999999 ;
-  
+  background-color: #999999;
 }
 .footerLogos {
   display: flex;
@@ -450,6 +481,139 @@ button {
 }
 
 .lastContent a {
-color: #2A90D9;
-text-decoration: none;
+  color: #2a90d9;
+  text-decoration: none;
+}
+
+.mainContainer {
+  height: 100%;
+  padding: 16px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* border: 2px solid gold; */
+  /* padding: 16px; */
+  /* width: 328px; */
+}
+
+.hamburgerHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  width:90%;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+button {
+  background-color: white;
+  border: none;
+  /* border: 2px solid red; */
+}
+.close-menu {
+  display: none;
+  font-size: 48px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  align-items: start;
+  font-size: 16px;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 0;
+}
+
+.moneyOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 73px;
+  color: #ee685f;
+}
+
+.moneyOptions :first-child {
+  width: 12px;
+  height: 22px;
+  border-bottom: 1px dotted #ee685f;
+}
+
+.moneyOptions :nth-child(2) {
+  height: 22px;
+  width: 28px;
+  border-bottom: 1px dotted #ee685f;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: flex-end;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    /* transform: translateY(-100%); */
+    transition: transform 0.3s ease;
+  }
+  .nav-menu.active {
+    transform: translateX(0);
+    display: flex;
+    z-index: 1000;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-menu li {
+    margin: 10px 0;
+  }
+  .close-menu {
+    display: block;
+    color: black;
+  }
 }
