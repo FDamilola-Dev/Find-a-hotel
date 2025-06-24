@@ -26,6 +26,11 @@ Setup and Installation
 Usage
 
 **Screenshots**
+![image](https://github.com/user-attachments/assets/49b16dcf-c5db-4f17-a92c-d344ac4d84aa)  Hamburger menu
+
+![image](https://github.com/user-attachments/assets/6e8a5b9c-8d16-48f6-9b65-eaff68e2b634)
+
+
 
 **Loom video link**
 
@@ -35,9 +40,10 @@ Author
 
 
 
-Check out the live demo of the project: Live Demo Link
+**Check out the live demo of the project: Live Demo Link**
 
-Features
+
+**Features**
 
 Responsive Design that enables dynamic extension of the menu using the hamburger button.
 
@@ -49,7 +55,7 @@ Review section tell the story of the brand through those whom has experienced it
 
 Footer with Socials and NavigationStructured footer with brand identity, social media icons, and navigational links.
 
-Technologies Used
+**Technologies Used**
 
 HTML
 
@@ -67,7 +73,7 @@ Clone the repository:
 ](https://github.com/FDamilola-Dev/Find-a-hotel.git)
 Navigate to the project directory:
 
-cd SheroesTravel
+cd Find-a-Hotel
 
 Install dependencies:
 
@@ -86,12 +92,14 @@ Screenshots
 
 
 Loom video link
+https://www.loom.com/share/e2a05dbef29f4fd58ee72207e1cecfb2?sid=b666e8f1-5938-4979-aea3-d6fb261d2d5d
 
 Loom Demo Video
 
-Live Demo Link
+https://www.loom.com/share/9d82d20f3d814817b6231bfb13a5a53b?sid=3eb60f08-1ec2-42f9-aa1c-f6755805230b
 
-Live Site
+Live Site:
+https://find-a-hotel.onrender.com/
 
 License
 
