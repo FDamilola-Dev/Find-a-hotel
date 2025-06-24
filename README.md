@@ -1,75 +1,106 @@
-# Find-a-Hotel---Mobile-Version
-ElevateHer Module 2 Project
-# ✈️ Travel Website
+Find-A-Hotel
 
-This is a responsive travel website built using HTML, CSS, and JavaScript. The site includes dynamically rendered sections like:
+ Find-A-Hotel Project
+
+This is a responsive travel-themed website built using **HTML, CSS, and JavaScript**. The site includes sections like:
 
 - Why Choose Us
 - Special Offers
-- Customer Reviews
+- Customer Reviews (dynamically rendered)
 - Recent Blog Posts
 
 It is fully responsive and designed to provide a smooth user experience for travelers exploring offers, reviews, and destination tips.
 
----
+**Table of Contents**
 
-## 🌐 Live Demo
+Introduction
 
-👉 [Visit Live Website](https://your-project-url.onrender.com)  
-*(Replace the link above with your actual Render.com live URL once deployed)*
+Live Demo Link
 
----
+Features
 
-## 📂 Folder Structure
-project-folder/
-├── index.html
-├── style.css
-├── main.js
-├── Assets/
-├── icon/
+Technologies Used
 
-## 🚀 Features
+Setup and Installation
 
-- ✅ Clean and responsive design
-- ✅ Dynamic review section with JS
-- ✅ Slide-style customer reviews
-- ✅ Special offers section with rating and favorite icons
-- ✅ Recent blog posts with post time and clock icon
+Usage
 
----
+**Screenshots**
 
-# Technologies Used
+**Loom video link**
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
+License
 
----
+Author
 
-## Screenshots
 
-Add screenshots of your site here (optional)
 
----
+Check out the live demo of the project: Live Demo Link
 
-##  Setup Instructions
+Features
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-Navigate into the project folder:
+Responsive Design that enables dynamic extension of the menu using the hamburger button.
 
-bash
-Copier
-Modifier
-cd project-folder
-Open index.html in your browser.
+Hero Section shows visually captivating write-up and image telling prospective clients about us.
 
-🙌 Acknowledgements
-Built with guidance and feedback during my learning journey.
-Thanks to free asset providers and open-source icons used in this project.
+Special offer showcases mouth watering offers the brand has.
 
-🧑‍💻 Author
-Fatimah Damilola Oyesanmi
-Frontend Developer | Modest Fashionpreneur
-Lagos, Nigeria
+Review section tell the story of the brand through those whom has experienced its products and services.
+
+Footer with Socials and NavigationStructured footer with brand identity, social media icons, and navigational links.
+
+Technologies Used
+
+HTML
+
+CSS 3
+
+Vanilla Javascript 
+
+Setup and Installation
+
+Explain how to set up and run your project locally. Include prerequisites, installation steps, and any necessary configurations.
+
+Clone the repository:
+
+[git clone https://github.com/FDamilola-Dev/Travel-website.git
+](https://github.com/FDamilola-Dev/Find-a-hotel.git)
+Navigate to the project directory:
+
+cd SheroesTravel
+
+Install dependencies:
+
+npm install
+
+Run the project:
+
+npm start
+
+Usage
+
+Simply navigate using the menu bars and links.
+
+Screenshots
+
+
+
+Loom video link
+
+Loom Demo Video
+
+Live Demo Link
+
+Live Site
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author
+
+Name: Fatimah Oyesanmi
+
+Email: foyesanmi@gmail.com
+
+GitHub: FDamilola-Dev
