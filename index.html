@@ -16,10 +16,12 @@
     <div class="mainContainer">
       <!-- Header Section -->
       <div class="header">
+        <div class="left">
         <button class="Hamburger" id="menuToggle">
           <img src="./Assets/menu.png" alt="Menu Bar" class="menuBar" />
         </button>
         <img src="./icon/Your.logo.png" alt="Logo" class="logo" />
+        </div>
         <img src="./Assets/Logoicon.png" alt="Logo Image" class="logoImg" />
       </div>
 
@@ -97,8 +99,9 @@
             but we can't write that here, so the text here will be different
           </p>
         </div>
+        </div>
 
-        <div class="paymentWrapper">
+        <!-- <div class="paymentWrapper">
           <div class="paymentImg">
             <img src="./Assets/Ellipse 2 .png" alt="Background" />
             <img src="./icon/advantages/payment.png" alt="Payment" />
@@ -110,10 +113,10 @@
               potatoes
             </p>
           </div>
-        </div>
+        </div> -->
 
         <div class="SearchWrapper">
-          <div class="searchImg">
+          <!-- <div class="searchImg">
             <img src="./Assets/Ellipse 2 .png" alt="Background" />
             <img src="./Assets/search.png" alt="Search" />
           </div>
@@ -123,11 +126,11 @@
               We checked it out, even the kid did it, but it was my mom's
               friend's son
             </p>
-          </div>
+          </div> -->
         </div>
 
         <div class="supportWrapper">
-          <div class="supportImg">
+          <!-- <div class="supportImg">
             <img src="./Assets/Ellipse 2 .png" alt="Background" />
             <img src="./Assets/support.png" alt="Support" />
           </div>
@@ -137,11 +140,11 @@
               Is there something you don't understand? Feel free to call us.
               Phone number in the footer
             </p>
-          </div>
+          </div> -->
         </div>
 
         <div class="niceWrapper">
-          <div class="niceImg">
+          <!-- <div class="niceImg">
             <img src="./Assets/Ellipse 2 .png" alt="Background" />
             <img src="./icon/advantages/nice.png" alt="Nice" />
           </div>
@@ -151,7 +154,7 @@
               Fantasy is over, there will be something really convincing here
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- Special Offers Section -->
@@ -161,7 +164,7 @@
         </div>
 
         <div class="specialOfferImgOneWrapper">
-          <div class="specialOfferImgOne">
+          <!-- <div class="specialOfferImgOne">
             <img src="./Assets/special1.png" alt="Room Image" />
             <img src="./Assets/rating.png" alt="rating" />
             <img src="./Assets/favorite.png" alt="Favorite" />
@@ -170,11 +173,11 @@
               <p>28 October — 1 November</p>
               <p><span>$2016</span> / 6 night</p>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="specialOfferImgOneWrapper">
-          <div class="specialOfferImgOne">
+          <!-- <div class="specialOfferImgOne">
             <img src="./Assets/special2.png" alt="Room Image" />
             <img src="./Assets/rating.png" alt="rating" />
             <img src="./Assets/favorite.png" alt="Favorite" />
@@ -183,11 +186,11 @@
               <p>28 October — 1 November</p>
               <p><span>$2016</span> / 6 night</p>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="specialOfferImgOneWrapper">
-          <div class="specialOfferImgOne">
+          <!-- <div class="specialOfferImgOne">
             <img src="./Assets/special4.svg" alt="Room Image" />
             <img src="./Assets/rating.png" alt="rating" />
             <img src="./Assets/favorite.png" alt="Favorite" />
@@ -196,7 +199,7 @@
               <p>28 October — 1 November</p>
               <p><span>$2016</span> / 6 night</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -205,32 +208,11 @@
         <div>
           <h2>Review</h2>
         </div>
-        <div class="reviewImgs">
-        <div class="reviewImg1">
-          <img src="./Assets/reviewImg.png" alt="Reviewer" />
-          <p>
-            I quickly found the right tour for me, but I had a few questions
-            about the hotel, I wrote to tech support and they answered all my
-            questions within an hour. The vacation itself was perfect. Thank you
-            very much. I will come back again and again.
-          </p>
-          <p><strong>Jannike Borg</strong>, Publisher</p>
+        <div class="reviewImgs" id="reviewImgs">
         </div>
-
-         <div class="reviewImg2">
-          <img src="./Assets/review2.png" alt="Reviewer" />
-          <p>
-            I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.
-          </p>
-          <p><strong>LeBron Durant</strong>, Flight attendant</p>
-        </div>
-        
-
-        
-
-        </div>
+         
         <div class="more">
-          <p>More reviews</p>
+          <button>More reviews</button>
         </div>
       </div>
 
@@ -403,34 +385,7 @@
         </div>
       </div>
     </div>
+      <script src="main.js"></script>
 
-    <script>
-    
-      document.addEventListener("DOMContentLoaded", function () {
-        const menuToggle = document.getElementById("menuToggle");
-        const closeMenu = document.getElementById("closeMenu");
-        const navMenu = document.getElementById("navMenu");
-
-        function openMenu() {
-          navMenu.classList.toggle("active");
-        }
-
-        // Toggle menu open
-        menuToggle.addEventListener("click", openMenu);
-
-        // Close menu
-        closeMenu.addEventListener("click", openMenu);
-
-        // Close menu when clicking outside
-        document.addEventListener("click", function (event) {
-          if (
-            !navMenu.contains(event.target) &&
-            !menuToggle.contains(event.target)
-          ) {
-            navMenu.classList.remove("active");
-          }
-        });
-      });
-    </script>
   </body>
 </html>

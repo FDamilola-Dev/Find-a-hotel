@@ -19,11 +19,6 @@ body {
   margin-bottom: 20px;
 }
 
-.logo {
-  margin-left: -15rem;
-  /* border: 2px solid red; */
-}
-
 .heroSection {
   width: 100%;
   height: 285px;
@@ -257,68 +252,45 @@ body {
   color: #2a90d9;
 }
 
+.reviewImgs {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%; 
+}
+
 .review-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* width: 309px; */
-  /* height: 497px; */
-  /* border: 2px solid pink; */
-  margin: 0 auto;
-}
-
-.reviewImgs {
-  display: flex;
-  flex-direction: row;
   text-align: center;
-  max-width: 312px;
-  height: 300px;
   overflow: hidden;
+  max-width: 328px;
+  margin: 20px auto;
 }
 
-.review h2 {
-  margin-bottom: 50px;
+.review {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
 }
 
 .review img {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin: 0 auto;
-  /* border: 2px solid darkgoldenrod; */
-}
-
-
-
-.reviewImg1 {
-  margin-bottom: 20px;
-  display: block;
-}
-
-.reviewImg2{
-  display: none;
-    animation: fade 0.5s ease-in-out;
-    width: 80px;
+  width: 80px;
   height: 80px;
   border-radius: 50%;
   margin-bottom: 10px;
-
 }
-.more {
+
+.more button {
   margin-top: 10px;
   background-color: #ee685f;
   color: white;
-  width: 300px;
+  width: 328px;
   height: 50px;
   text-align: center;
   align-items: start;
   border-radius: 10px;
   border: none;
-}
-@keyframes fade {
-  from { opacity: 0; }
-  to { opacity: 1; }
 }
 
 .recentPostSection {
