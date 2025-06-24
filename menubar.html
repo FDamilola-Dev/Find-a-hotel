@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="mainContainer">
+    <div class="nav-menu" id="navMenu">
+        <button id="menuToggle" class="menu-toggle"></button>
+        <div class="left">
+        <button id="closeMenu" class="close-menu">&times</button>
+
+        <img src="./icon/Your.logo.png" alt="" />
+        </div>
+        <div class="right"><img src="./Assets/Logoicon.png" alt="" /></div>
+    </div>
+
+    <nav>
+        <ul>
+        <li>Last Minute Deals</li>
+        <li>Blog</li>
+        <li>About us</li>
+        <li>Contacts</li>
+        </ul>
+    </nav>
+
+    <div class="moneyOptions">
+        <p>$</p>
+        <p>RU</p>
+    </div>
+
+    <div class="footerLogo">
+        <img src="./Assets/Phone_black.png" alt="" />
+        <img src="./Assets//Facebook_black.png" alt="" />
+        <img src="./Assets/Youtube_black.png" alt="" />
+        <img src="./Assets/Instagram_black.png" alt="" />
+        <img src="./Assets//Telegram_black (1).png" alt="" />
+    </div>
+
+
+    </div>
+</body>
+<script src="script.js">
+
+        document.addEventListener("DOMContentLoaded", function() {
+    const menuToggle = document.getElementById('menuToggle');
+    const closeMenu = document.getElementById('closeMenu');
+    const navMenu = document.getElementById('navMenu');
+
+    if (menuToggle && navMenu && closeMenu) {
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+    }
+});
+    </script>
+</html>
