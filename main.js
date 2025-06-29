@@ -25,7 +25,6 @@
         });
       });
 
-    // --- WHY CHOOSE US DATA ---
 const whyChooseUsData = [
   {
     wrapperClass: "paymentWrapper",
@@ -61,7 +60,6 @@ const whyChooseUsData = [
   }
 ];
 
-// Render Why Choose Us
 const whyContainer = document.querySelector(".whyChooseUs-container");
 whyChooseUsData.forEach(item => {
   const wrapper = document.createElement("div");
@@ -80,7 +78,6 @@ whyChooseUsData.forEach(item => {
 });
 
 
-// --- SPECIAL OFFERS ---
 const specialOffers = [
   { img: "./Assets/special1.png" },
   { img: "./Assets/special2.png" },
@@ -106,8 +103,6 @@ specialOffers.forEach(offer => {
   offerWrapper.appendChild(div);
 });
 
-// --- REVIEWS ---
-
     //   review section
       const reviews = [
     {
@@ -132,7 +127,7 @@ specialOffers.forEach(offer => {
 
   const container = document.getElementById("reviewImgs");
 
-  // Render each review using your tag structure
+
   reviews.forEach((r) => {
     const div = document.createElement("div");
     div.className = "review";
@@ -144,7 +139,6 @@ specialOffers.forEach(offer => {
     container.appendChild(div);
   });
 
-  // Slider logic
   let index = 0;
   function slideReviews() {
     const total = reviews.length;
@@ -154,7 +148,7 @@ specialOffers.forEach(offer => {
 
   setInterval(slideReviews, 5000); // change every 5 secs
 
-// --- RECENT POSTS ---
+
 const posts = [
   {
     img: "./Assets/recentImg2.svg",
